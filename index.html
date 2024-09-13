@@ -31,11 +31,13 @@
   font-style: normal;
 }
 			.image {
+				display: grid;
 				grid-area: 1/1/2/2;
+				place-items: center;
 			}
 			.image img{
-				width: 400px;
-				border-radius: 200px;
+				width: min(400px, 90%);
+				border-radius: 100%;
 			}
 			body {
 				background-color: #fffbe1;
@@ -86,8 +88,8 @@
 			}
 			.about {
 				background-color: white;
-				padding-left: 15%
-				max-width: 100%
+				padding-left: 15%;
+				max-width: 100%;
 			}
 		</style>
 	</head>
